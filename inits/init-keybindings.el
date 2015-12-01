@@ -1,5 +1,5 @@
 ;; org
-(global-set-key (kbd "C-c n") 'open-notes-file)
+(global-set-key (kbd "C-c n f") 'open-notes-file)
 
 ;; windows and frames
 (global-set-key (kbd "C-.") 'other-window)
@@ -46,5 +46,8 @@
 (global-set-key (kbd "C-c o l") 'org-store-link)
 (global-set-key (kbd "C-c o a") 'org-agenda)
 (global-set-key (kbd "C-c o c") 'org-capture)
+
+;; project
+(global-set-key (kbd "C-c n t") 'neotree-toggle)
 
 (provide 'init-keybindings)

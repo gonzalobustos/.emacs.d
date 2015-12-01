@@ -17,6 +17,7 @@
 (depends-on "moe-theme")
 (depends-on "mmm-mode")
 (depends-on "multiple-cursors")
+(depends-on "neotree")
 (depends-on "js2-mode")
 (depends-on "json-mode")
 (depends-on "pallet")

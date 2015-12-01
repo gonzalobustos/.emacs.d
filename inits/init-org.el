@@ -1,11 +1,10 @@
-(setq 
+(setq
   org-log-done t
-  org-default-notes-file (expand-file-name "~/.notes.org")  
+  org-default-notes-file (expand-file-name "~/.notes.org")
   org-support-shift-select t
   org-use-fast-todo-selection t
   org-inhibit-startup-visibility-stuff t
-  org-reverse-note-order t
-  initial-buffer-choice org-default-notes-file)
+  org-reverse-note-order t)
 
 (setq org-capture-templates
   '(

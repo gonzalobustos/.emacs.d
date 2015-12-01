@@ -10,6 +10,7 @@
 (require 'init-ruby)
 (require 'init-web)
 (require 'init-javascript)
+(require 'init-project)
 (require 'init-flycheck)
 (require 'init-yasnippet)
 (require 'init-org)

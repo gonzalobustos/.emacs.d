@@ -1,9 +1,8 @@
-(setq-default 
+(setq-default
   make-backup-files nil
-  create-lockfiles nil)
-
-(setq-default tab-width 2)
-(setq-default indent-tabs-mode nil)
+  create-lockfiles nil
+	tab-width 2
+	indent-tabs-mode nil)
 
 (show-paren-mode 1)
 
