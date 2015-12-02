@@ -6,6 +6,8 @@
 
 (show-paren-mode 1)
 
+(delete-selection-mode 1)
+
 (global-undo-tree-mode t)
 
 (fset 'yes-or-no-p 'y-or-n-p)
