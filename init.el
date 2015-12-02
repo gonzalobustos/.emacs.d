@@ -2,6 +2,7 @@
 
 (require 'init-cask)
 (require 'init-sessions)
+(require 'init-misc)
 (require 'init-smartparens)
 (require 'init-theme)
 (require 'init-company)
@@ -14,7 +15,6 @@
 (require 'init-flycheck)
 (require 'init-yasnippet)
 (require 'init-org)
-(require 'init-misc)
 (require 'init-utils)
 (require 'init-keybindings)
 (require 'init-server)

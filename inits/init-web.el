@@ -10,10 +10,11 @@
 
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 
-(setq web-mode-enable-auto-pairing nil)
-(setq web-mode-markup-indent-offset 2)
-(setq css-indent-offset 2)
-
+(setq
+  web-mode-enable-auto-pairing nil
+  web-mode-markup-indent-offset 2
+  web-mode-css-indent-offset 2
+  web-mode-code-indent-offset 2)
 
 (sp-with-modes '(web-mode)
   (sp-local-pair "%" "%"
