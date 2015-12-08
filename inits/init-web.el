@@ -10,6 +10,8 @@
 
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 
+(add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
+
 (setq
   web-mode-enable-auto-pairing nil
   web-mode-markup-indent-offset 2
@@ -29,5 +31,12 @@
   (sp-local-tag "%" "<% "  " %>")
   (sp-local-tag "=" "<%= " " %>")
   (sp-local-tag "#" "<%# " " %>"))
+
+(setq 
+  web-mode-enable-auto-pairing nil
+  web-mode-markup-indent-offset 2
+  css-indent-offset 2
+  web-mode-code-indent-offset 2
+  jsx-indent-level 2)
 
 (provide 'init-web)
