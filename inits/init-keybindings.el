@@ -23,9 +23,13 @@
 
 ;; search
 (global-set-key (kbd "C-s") 'isearch-forward-regexp)
-(global-set-key (kbd "\C-r") 'isearch-backward-regexp)
+(global-set-key (kbd "C-r") 'isearch-backward-regexp)
 (global-set-key (kbd "C-M-s") 'isearch-forward)
 (global-set-key (kbd "C-M-r") 'isearch-backward)
+
+;; replace
+(global-set-key (kbd "C-c r r") 'replace-regexp)
+(global-set-key (kbd "C-c q r") 'query-replace-regexp)
 
 ;; kill-ring
 (global-set-key (kbd "M-Y") 'browse-kill-ring)
