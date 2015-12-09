@@ -1,6 +1,7 @@
 (add-to-list 'load-path (expand-file-name "inits" user-emacs-directory))
 
 (require 'init-cask)
+(require 'init-path)
 (require 'init-sessions)
 (require 'init-misc)
 (require 'init-smartparens)
@@ -10,6 +11,7 @@
 (require 'init-python)
 (require 'init-ruby)
 (require 'init-javascript)
+(require 'init-go)
 (require 'init-project)
 (require 'init-web)
 (require 'init-flycheck)
