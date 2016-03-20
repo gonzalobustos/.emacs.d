@@ -54,4 +54,10 @@
 ;; project
 (global-set-key (kbd "C-c n t") 'neotree-toggle)
 
+;; tabbar
+(global-set-key (kbd "C-S-<prior>") 'tabbar-backward-group)
+(global-set-key (kbd "C-S-<next>") 'tabbar-forward-group)
+(global-set-key (kbd "C-<prior>") 'tabbar-backward)
+(global-set-key (kbd "C-<next>") 'tabbar-forward)
+
 (provide 'init-keybindings)

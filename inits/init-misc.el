@@ -4,9 +4,11 @@
 	tab-width 2
 	indent-tabs-mode nil)
 
-(show-paren-mode 1)
+(setq standard-indent 2)
 
-(delete-selection-mode 1)
+(show-paren-mode t)
+
+(delete-selection-mode t)
 
 (global-undo-tree-mode t)
 

@@ -3,6 +3,7 @@
 (require 'init-cask)
 (require 'init-path)
 (require 'init-sessions)
+(require 'init-gui)
 (require 'init-misc)
 (require 'init-powerline)
 (require 'init-project)

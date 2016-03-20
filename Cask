@@ -34,6 +34,8 @@
 (depends-on "ruby-mode")
 (depends-on "scss-mode")
 (depends-on "smartparens")
+(depends-on "smooth-scroll")
+(depends-on "tabbar")
 (depends-on "undo-tree")
 (depends-on "web-mode")
 (depends-on "wgrep-ag")

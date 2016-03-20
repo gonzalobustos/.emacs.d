@@ -10,6 +10,7 @@
 /history
 /snippets
 /bookmarks
+/url/cache
 /.mc-lists.el
 /.emacs.desktop
 /.emacs.desktop.lock
